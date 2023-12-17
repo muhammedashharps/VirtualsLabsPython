@@ -50,8 +50,8 @@ python_exercises = [
 
 
 for i in range(0, len(questions)):
-    with st.expander(questions[i]):
-         st.write(python_exercises[i])
+    with st.expander(f"**{questions[i]}**"):
+         st.write(f"**{python_exercises[i]}**")
 
 
 st.divider()
