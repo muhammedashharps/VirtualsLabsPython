@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(page_title="Virtual Labs NSSCE", page_icon="🐍", layout= "wide")
 
 # Define the questions and answer options
 questions = [

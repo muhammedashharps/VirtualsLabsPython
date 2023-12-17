@@ -11,7 +11,7 @@ topics = (
 selected_topic = st.selectbox('**Select a Topic You Wish To Learn**', topics)
 st.divider()
 
-if selected_topic == "Python Strings":
+if selected_topic == "Strings":
 
     st.markdown("# String Basics in Python")
 
